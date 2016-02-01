@@ -69,5 +69,5 @@ app.get('/', function(req, res) {
 app.use(express.static('public'));
 
 //[5] Listen for incoming requests
-app.listen(process.env.PORT);
-// app.listen(8000);
+// app.listen(process.env.PORT);
+app.listen(80);
