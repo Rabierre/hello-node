@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.26
+3 info using node@v0.8.11
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/seojihye/sourcecodes/node-hello-world',
+5 verbose install   [ 'express', 'ejs', 'mysql', 'opsworks' ] ]
+6 info preinstall node-js-sample@0.0.2
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping express@~3.3.4 /Users/seojihye/sourcecodes/node-hello-world
+9 verbose already installed skipping ejs@* /Users/seojihye/sourcecodes/node-hello-world
+10 verbose already installed skipping mysql@* /Users/seojihye/sourcecodes/node-hello-world
+11 verbose cache add [ 'opsworks@*', null ]
+12 verbose cache add name=undefined spec="opsworks@*" args=["opsworks@*",null]
+13 verbose parsed url { pathname: 'opsworks@*',
+13 verbose parsed url   path: 'opsworks@*',
+13 verbose parsed url   href: 'opsworks@*' }
+14 verbose cache add name="opsworks" spec="*" args=["opsworks","*"]
+15 verbose parsed url { pathname: '*', path: '*', href: '*' }
+16 verbose addNamed [ 'opsworks', '*' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 75278893-opsworks opsworks@*
+19 verbose lock opsworks@* /Users/seojihye/.npm/75278893-opsworks.lock
+20 silly addNameRange { name: 'opsworks', range: '*', hasData: false }
+21 verbose request where is /opsworks
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 635e0d3cb610c32c
+24 verbose url raw /opsworks
+25 verbose url resolving [ 'https://registry.npmjs.org/', './opsworks' ]
+26 verbose url resolved https://registry.npmjs.org/opsworks
+27 verbose request where is https://registry.npmjs.org/opsworks
+28 info trying registry request attempt 1 at 04:54:17
+29 http GET https://registry.npmjs.org/opsworks
+30 http 404 https://registry.npmjs.org/opsworks
+31 silly registry.get cb [ 404,
+31 silly registry.get   { 'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '2',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Mon, 01 Feb 2016 19:54:17 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-itm7423-ITM',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1454356457.770547,VS0,VE200' } ]
+32 silly lockFile 75278893-opsworks opsworks@*
+33 silly lockFile 75278893-opsworks opsworks@*
+34 error 404 Not Found
+34 error 404
+34 error 404 'opsworks' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'node-js-sample'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Darwin 14.4.0
+36 error command "node" "/usr/local/bin/npm" "install"
+37 error cwd /Users/seojihye/sourcecodes/node-hello-world
+38 error node -v v0.8.11
+39 error npm -v 1.4.26
+40 error code E404
+41 verbose exit [ 1, true ]
